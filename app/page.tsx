@@ -264,7 +264,7 @@ export default function Home() {
                       {order.trackingNumber}
                     </a>
                   </td>
-                  <td className="flex flex-row items-center gap-1 w-fit pt-[1.4rem] text-gray-600 border-[#ffffff] actions-col">
+                  <td className="flex flex-row items-center gap-1 w-fit text-gray-600 border-[#ffffff] actions-col">
                     <button className="w-fit mx-auto p-[.5rem] text-white bg-yellow-500 hover:bg-yellow-600 rounded-lg transition-all duration-300 ease-in-out hover:scale-105" onClick={() => handleEdit(order.id)}>
                       <span className="sr-only">Edit</span>
                       <Pencil size={12} />
